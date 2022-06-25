@@ -1,0 +1,9 @@
+/* Global */
+* {
+    padding: 0;
+}
+
+body,
+html {
+    font-family: 'Poppins', sans-serif;
+}

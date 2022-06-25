@@ -1,0 +1,16 @@
+/* Global */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+#navbarUeh .nav-item .nav-link {
+    color: #fff;
+}

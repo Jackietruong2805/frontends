@@ -1,0 +1,10 @@
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.card__img{
+    flex-grow: 1;
+}
+.card__body{
+    flex-grow: 1;
+}

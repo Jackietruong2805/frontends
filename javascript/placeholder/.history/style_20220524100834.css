@@ -1,0 +1,13 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.card__img{
+    flex-grow: 1;
+    background-color: aquamarine;
+    height: 100px;
+}
+.card__body{
+    flex-grow: 1;
+}

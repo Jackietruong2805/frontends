@@ -1,0 +1,1 @@
+const nav = document.querySelectorAll(".nav__button");

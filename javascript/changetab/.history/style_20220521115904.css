@@ -1,0 +1,18 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.nav__tab{
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+}
+.nav__tab .nav__item{
+    padding: 10px;
+}
+.nav__tabcontent >* {
+    display:none;
+}
+.show{
+    display: block;
+}

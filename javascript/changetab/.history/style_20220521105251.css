@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.nav__tab{
+    display: flex;
+    list-style: none;
+}
+.nav__tab .nav__item{
+    padding: 10px;
+}
+.show{
+    display: block;
+}

@@ -1,0 +1,124 @@
+/* GLOBAL */
+section {
+    margin: 20px 0;
+}
+/* HEADER */
+.header .header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.header__right li{
+    display:inline-block;
+}
+
+.header__right ul{
+    margin: 0;
+}
+
+.header__right li a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    border-radius: 20px;
+    transition: all .5s;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px 15px;
+    font-size:16px;
+}
+
+.header__right li a:hover{
+    color: #f68f00;
+}
+
+.header__content .header__right li a.active,
+.header__content .header__right li a:focus{
+    color: white;
+    background-color: #f68f00;
+}
+.header__right li{
+    font-weight: bold;
+}
+
+
+.header__left{
+    margin-left:100px;
+    width: 165px;
+    padding: 10px;
+}
+.header__left img{
+    width: 100%;
+}
+
+/* PIEPME */
+.container-fluid{
+    background: linear-gradient(246deg,#ffc60a -9%,#f68f00 87%);;
+}
+.container h1{
+    font-family: 'SVN-Lobster';
+    text-align: center;
+    padding: 10px 0;
+    padding-top: 40px;
+    font-size: 2.1875rem;
+    color: #9d0000;
+}
+
+.container .PiepMe__img{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.container .PiepMe__img img{
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+.container .PiepMe__icon a i::before{
+    color: #f68f00;
+}
+
+.container .PiepMe__icon{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.container .PiepMe__icon a{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    white-space: nowrap;
+}
+
+.container .PiepMe__icon a:nth-of-type(2){
+    width: 175px;
+}
+
+.container .PiepMe__icon a:nth-of-type(3){
+    width: 175px;
+}
+
+.container .PiepMe__icon a span{
+    display: inline-block
+}
+
+
+
+
+
+
+

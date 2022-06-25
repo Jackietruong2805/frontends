@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.nav__tab{
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+}
+.nav__tab .nav__item{
+    padding: 10px 10px 0 10px;
+    border: 1px solid #ddd;
+    border-bottom: 1px solid white;
+    position: relative;
+    z-index: 10;
+}
+.nav__tabcontent >* {
+    display:none;
+}
+.nav__button{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.show{
+    display: block;
+}
